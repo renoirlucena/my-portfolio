@@ -1,5 +1,5 @@
 {
-  "name": "cvio",
+  "name": "renoir",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "grained": "^0.0.2",
     "isotope-layout": "^3.0.6",
     "jarallax": "^2.0.4",
