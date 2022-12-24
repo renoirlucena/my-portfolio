@@ -8,5 +8,8 @@ const nextConfig   = {
   },
   assetPrefix: '.',
 };
+  module.exports = {
+  basePath: '/docs',
+}
 
 export default   nextConfig;
