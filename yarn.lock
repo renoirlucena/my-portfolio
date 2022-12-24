@@ -1604,6 +1604,11 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
+"next-export-fixer@^1.0.3":
+  "integrity" "sha512-lcw8OQy5iMtHIyPak/Q34BRcI3BoirmuLJs/vQOzsFWPcOhYmbzMBvnN0Dty2FJbJ4zZdzZCNhqqlShVh4QpEg=="
+  "resolved" "https://registry.npmjs.org/next-export-fixer/-/next-export-fixer-1.0.3.tgz"
+  "version" "1.0.3"
+
 "next@12.3.0":
   "integrity" "sha512-GpzI6me9V1+XYtfK0Ae9WD0mKqHyzQlGq1xH1rzNIYMASo4Tkl4rTe9jSqtBpXFhOS33KohXs9ZY38Akkhdciw=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.0.tgz"

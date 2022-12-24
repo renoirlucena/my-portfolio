@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export && npm run replaceFilePaths ",
+    "export": "next build && next export && next-export-fixer",
     "replaceFilePaths": "node replacer.js",
     "build-static": "next build && next export && npm run build-static-repair-index",
     "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
@@ -28,6 +28,7 @@
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
+    "next-export-fixer": "^1.0.3",
     "replace-in-file": "^6.3.5",
     "replace-in-files-cli": "^2.0.0"
   }
