@@ -1,16 +1,13 @@
-/**
-   * @type {import('next').NextConfig}
-   */
-const nextConfig   = {
-  images: {
-    loader: 'akamai',
-    path: '',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
   },
-  assetPrefix: '.',
-};
-
-module.exports = {
+}
+  module.exports = {
   basePath: '/docs',
-};
-
-export default   nextConfig;
+}
+export default nextConfig;
